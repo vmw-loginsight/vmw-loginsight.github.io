@@ -4895,11 +4895,7 @@ Authorization: Bearer 80Lmue52xwIgDiQMu7as9jLdLFFs+Hn3HI2WP0fx6kH0ApL
     }
   },
   "required" : [
-    "enabled",
-    "hostname",
-    "port",
-    "tenant",
-    "redirectURL"
+    "enabled"
   ]
 }
 </code></pre></div><div class="tab-pane fade" id="vidm_get_response_401"><h2>HTTP status code <a href="http://httpstatus.es/401" target="_blank">401</a></h2><p>The request was refused because it lacks valid authentication credentials. This can happen if the <code>Authorization</code> header was missing, or if it contained an invalid session ID.</p><p><a href="#sessions">Obtain a new session ID</a> and retry the request, or make an unauthenticated request without the <code>Authorization</code> header.</p><h3>Body: <em>text/plain</em></h3><pre><code>Invalid session ID
